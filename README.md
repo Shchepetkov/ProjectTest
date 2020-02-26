@@ -1,0 +1,2 @@
+# tamagotchi
+project for epama
