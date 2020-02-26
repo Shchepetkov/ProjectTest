@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #2e3348;" xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.devcolibri.mavenjavafxapp.controller.Controller">
+   <children>
+      <AnchorPane layoutY="150.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="150.0">
+         <children>
+            <ImageView fitHeight="300.0" fitWidth="279.0" layoutX="-23.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@dance.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="300.0" fitWidth="300.0" layoutX="350.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../sprites/Herbalist.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="300.0" fitWidth="300.0" layoutX="700.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../sprites/Jeweler.gif" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <Label minWidth="-Infinity" text="Tamagotchi" textFill="WHITE" AnchorPane.bottomAnchor="450.0" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="Zapfino" size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="IDRina" layoutX="120.0" layoutY="460.0" mnemonicParsing="false" style="-fx-background-color: #F39C63;" text="Rina" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="IDHerbalist" disable="true" layoutX="470.0" layoutY="460.0" mnemonicParsing="false" style="-fx-background-color: #F39C63#F39C63;" text="Herbalist" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="IDJeweler" disable="true" layoutX="825.0" layoutY="460.0" mnemonicParsing="false" style="-fx-background-color: #F39C63#F39C63; -fx-border-radius: 15;" text="Jeweler" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
